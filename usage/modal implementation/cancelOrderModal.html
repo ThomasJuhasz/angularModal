@@ -1,0 +1,14 @@
+﻿<thj-modal class="place-order-modal">
+    <thj-modal-header>Cancel Order</thj-modal-header>
+    <thj-modal-body>
+
+        <div class="icon-confirmation"></div>
+
+        <p class="cancelOrderText">Are you sure you want to cancel this order?</p>
+
+        <div class="button-container">
+            <thj-ajax-loading-button ng-click="vm.cancelOrder()" thj-promise="vm.cancelPromise">Yes</thj-ajax-loading-button>
+            <button class="custom-button default" ng-click="vm.closeDialog()" ng-disabled="vm.cancelPromise">No</button>
+        </div>
+    </thj-modal-body>
+</thj-modal>
