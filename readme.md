@@ -2,6 +2,7 @@
 The reason behind this component and service is to be able to create unified modal windows throughout the whole page in a simple way.
 
 Prerequisites:
+
 1. npm install angular-ui-bootstrap
 2. reference it in your module definition
 
